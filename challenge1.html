@@ -5,6 +5,11 @@
     }
     .link{
         color:rgb(0,113,133);
+        transition: color 0.15s, box-shadow 0.15;
+    }
+    .link:hover {
+        color: rgb(3, 178, 29);
+        box-shadow: 1px, 1px, 10px, rgba(3, 178, 29, 0.15);
     }
     .paragraph {
         font-size: 30px;
@@ -16,6 +21,13 @@
         width: 120px;
         border-radius: 15px;
         border: none;
+        transition: background-color 0.15s;
+    }
+    .add-to-cart-button:hover{
+        background-color: rgb(230, 191, 52);
+    }
+    .add-to-cart-button:active {
+        opacity: 0.5;
     }
     .buy-now-button {
         background-color: rgb(255,164,28);
@@ -23,6 +35,13 @@
         width: 120px;
         border-radius: 15px;
         border: none;
+        transition: background-color 0.15s;
+    }
+    .buy-now-button:hover {
+        background-color: rgb(255, 135, 28);
+    }
+    .buy-now-button:active {
+        opacity: 0.5;
     }
 </style>
 
