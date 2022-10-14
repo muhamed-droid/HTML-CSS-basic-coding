@@ -1,3 +1,3 @@
 # HTML-CSS-basic-coding
 Going through different HTML and CSS techniques. Making some training projects. 
-Goal is to recreate a youtube page.
+Goal is to recreate a YouTube page. Using html elements and css styles goal si to recreate YouTube default start page with lots of videos with different authors and toggle bar, search bar... 
